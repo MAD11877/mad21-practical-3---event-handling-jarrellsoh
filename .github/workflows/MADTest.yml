@@ -34,10 +34,10 @@ jobs:
           cp app/src/main/res/layout/activity_main.xml testDirectory/test.xml
           cd testDirectory
           ls
-          go test -v
-          go run arrange.go
-          cd ..
-          ls
+          #go test -v
+          #go run arrange.go
+          #cd ..
+          #ls
           
       - name: Make gradlew executable
         run: chmod +x ./gradlew
